@@ -12,9 +12,6 @@ let p = 10;
 let j = 5;  
 let o = p + j;
 
-
-//me da la sensación que el enunciado esta mal y se trata de un operador y no un operador de asignación. 
-
 //1.5 
 let c = 10;
 let m = 5;
