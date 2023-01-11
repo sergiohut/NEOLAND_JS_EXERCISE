@@ -14,3 +14,8 @@ const toys = [
     }
 
     console.log(listNoCats);
+
+    /* Otro compañero propuso hacerlo con slice e indexOf, 
+    yo creo que hubiera tirado por ahi porque el enunciado era elimina los objetos,
+    no crea un array con todos los objetos que no cumplan esta condición. 
+    Pero supongo que se trata también de interpretar los enunciados para que sea más sencillo
