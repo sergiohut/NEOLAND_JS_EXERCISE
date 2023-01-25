@@ -13,9 +13,6 @@ const videogames = [
 ]
 
 const RPGGames = videogames.filter((videogame) => videogame.genders.includes("RPG"));
-const sumScores =  
-const averageRPGGames = sumScores / RPGGames;
+const averageRPGGames =  RPGGames.reduce((accumulator,RPGGame) => accumulator + RPGGame.score,0)/ RPGGames.length;;
 console.log(RPGGames); 
-console.log(sumScores); 
-console.log(RPGGames.length);
 console.log(averageRPGGames); 

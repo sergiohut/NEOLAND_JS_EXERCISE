@@ -74,6 +74,13 @@ const streamers = [
 	{name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us'}
 ];
 
+
+const streamersContain = streamers.filter((streamer) => if (streamer.name.includes(toFilterStreamers)){
+	return streamer; 
+})
+
+console.log(streamersContain)
+
 <!doctype html>
 <html lang="en">
 <head>

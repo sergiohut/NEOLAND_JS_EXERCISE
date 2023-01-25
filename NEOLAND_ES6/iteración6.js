@@ -30,10 +30,9 @@ const mutations = [
 	{name: 'Andando que es gerundio', description: 'Invoca a un señor mayor como Personal Trainer'}
 ];
 
-const lookInAliens = aliens.filter(alien => alien.name === "Cucushumushu");
-const lookInMutation = mutations.filter(mutation => mutation.name === "Porompompero");
-const fusion = [...lookInAliens,...lookInMutation];
+const lookInAliens = aliens.find(alien => alien.name === "Cucushumushu");
+const lookInMutation = mutations.find(mutation => mutation.name === "Porompompero");
+const fusion = const fusion = {...lookInAliens, "mutation"...lookInMutation};
+console.log(fusion);
 
-console.log(fusion)
-
-
+/* este lo corregimos en clase pero yo creo que esta mal y que hay que hacer un mapeo o deconstruir o algo. 
